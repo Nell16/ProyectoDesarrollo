@@ -1,0 +1,119 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2 jun. 2022, 15:30:47
+    Author     : asus
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: red;
+    font-size: 20px;
+    margin-top: 0;
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu > li:hover{
+    background-color: darkred;
+}
+
+.submenuA{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.submenuS{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu li:hover .submenuA{
+    display: block;
+}
+
+.menu li:hover .submenuS{
+    display: block;
+}
+
+.menu li:hover{
+    background-color: black;
+}
+
+.submenuA li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
+
+.submenuS li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
+
+.title{
+    position: relative;
+    right:40px;
+}
+
+.consejo{
+    margin-top: 0;
+    margin-left: 25%;
+    height: 50%;
+    width: 50%;
+}
+
+.text h1{
+    position: relative;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+/*FIN DE MENU DE NAVEGACION.*/
+
